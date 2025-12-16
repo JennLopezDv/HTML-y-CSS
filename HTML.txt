@@ -1,7 +1,7 @@
 LINK, Curso HTML y CSS --- Dalto:
 https://www.youtube.com/watch?v=ELSm-G201Ls
 
-minu: 2:08:25
+minu: 04:50:25
 
 
 TÍTULOS Y SUB:
@@ -32,3 +32,12 @@ input type = "date",
 - name= (identificador de los inputs) -***Confg interna***
 - placeholder = (Escribe un pequeño texto que desaparace cuando el usuario empieza a escribir)
 - value (Lo que va a recibir el servidor).
+
+
+
+----------- UPPERCASE: Letra mayúscula.
+----------- lowercase: letra minúscula.
+----------- Capitalize: Pone en mayúscula la primer letra de cada palabra.
+
+
+****SI QUEREMOS RESALTAR A NIVEL SEMANTICO UNA PALABRA, LO DEBEMOS HACER CON <strong> aquí_va_la_palabra </strong> PARA QUE GOOGLE LE DE IMPORTANCIA*****

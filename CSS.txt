@@ -1,0 +1,53 @@
+word-wrap: break-word ***Corta las palabras.
+word-break: break-all ****Corta las pabras y las corta a la mitad.
+ 
+
+BORDER:
+///Border fusiona las de abajo// y sería ejemplo: border: 3px solid black
+* Border-width: Tamaño.
+* Border-style: Estilo del borde. (dashed, double, groove, dotthed, hidden)
+* Border-color: Color del borde.
+
+Tambien puedo definir border top, border left, borden bottom, border righ.
+
+* Border-radius: Permite cambiar las esquinas de un elemento. (se da en % o en px)
+
+
+Ejemplo de INPUT PERSONALIZADO:
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-top: 1px solid black;
+    background: ghostwhite
+    border-radius: 3px 
+}
+
+COLORES:  ayudas (htmlcolorcodes.com) (generador de palestas de colores)
+*RGB: Red+Green+Blue: 16.777.216 cantidad de colores que tiene. (0-255 PARA CADA UNO)
+*RGBA: A opAcacidad.
+*HEXADECIMAL: de Base 16. Inicio con #
+
+MEDIDAS:
+* px: medidas absolutas (la parte más mínima).
+* rem: multiplica al elemento raíz (html) USOS: Tamaño fuente, espaciado, tipografia en genral y tambien EM.
+* em: multiplica el font-size del contenedor padre, por el numero que le demos
+* %: medida relativa (depende del tamaño de quien lo contenga).
+
+*vh - *vw: Especial para ventanas modales.
+ 
+
+* pt: para imprimir - mm (milimetros) - cm: -in: (pulgadas) ///Cosas que sabemos que van a imprimir. 
+
+FONDOS:
+* background-size: tamaño de fondo. (contein, cover (adaptarse))
+* background-position
+* background-color
+* background-image
+* background-repeat: no-repeat.
+* background-attachment: fixed; 
+
+de manera general: background: url, top / cover fi fixed color.
+
+-----FONDO GRADIENTES: Transición de colores.
+* background: linear-gradient(color1, color2)
