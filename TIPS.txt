@@ -1,0 +1,23 @@
+///////// Para hacer que el footer se quede en la parte de abajo: /////////////
+
+EJEMPLO:
+*HTML
+ <div>
+        <header><h1>Hola Mundo</h1></header>
+        <main><h2>¿Cómo vamos?</h2></main>
+        <footer><p>Derechos reservados</p></footer>
+    </div> 
+
+*CSS:
+    div{ 
+        display: grid;
+        min-height: 100dvh;
+        grid-template-rows: auto 1fr auto;
+    }
+
+///// RUTA RÁPIDA PARA ESCRIBIR ///////
+
+***Para hacer una barra de navegación con items.
+    div>nav>li.list$*4>
+
+    
