@@ -20,4 +20,27 @@ EJEMPLO:
 ***Para hacer una barra de navegación con items.
     div>nav>li.list$*4>
 
+
+///////////////////////////////
+¿Ordenar hijos?
+→ display: flex
+
+¿Centrar horizontal?
+→ justify-content: center
+
+¿Centrar vertical?
+→ align-items: center
+
+¿Uno debajo del otro?
+→ flex-direction: column
+
+¿Muchas tarjetas?
+→ flex-wrap: wrap
+
+¿Galería / cursos?
+→ display: grid
+
+¿Responsive?
+→ media query
+
     
